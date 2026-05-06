@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Calculatrice 02/04/2026 </title>
+        <meta name="description" content="Ceci est un site qui implémente une calculatrice simple en html/CSS/JS">
+        <meta name= "keywords" content = "calculatrice, calculs, facile, efficace">
+        <link href="./calculatrice.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1> Bienvenue sur ma calculatrice en ligne</h1>
+        </header>
+
+        <main>
+            <div class="grid" id="calculatrice">
+                <div class="flex" id="ecran">
+                    <p id="textEcran"></p>
+                </div>
+                <button class="button clear" id="clearAll">Clear All</button>
+                <button class="button clear" id="clearlast">Clear Last</button>
+                <button class="button chiffre" id="0">0</button>
+                <button class="button operateur" id="plus">+</button>
+                <button class="button operateur" id="moins">-</button>
+                <button class="button egal" id="egal">=</button>
+                <button class="button chiffre" id="1">1</button>
+                <button class="button chiffre" id="2">2</button>   
+                <button class="button chiffre" id="3">3</button>   
+                <button class="button operateur" id="fois">*</button>
+                <button class="button chiffre" id="4">4</button> 
+                <button class="button chiffre" id="5">5</button>   
+                <button class="button chiffre" id="6">6</button>   
+                <button class="button operateur" id="diviser">/</button>
+                <button class="button chiffre" id="7">7</button> 
+                <button class="button chiffre" id="8">8</button>   
+                <button class="button chiffre" id="9">9</button>   
+                <button class="button operateur" id="exposant">^</button>
+            </div>
+
+            <p id="errorMessage">  </p>
+        </main>
+
+        <footer>
+            <h2> Site réalisé par Benjamin Cruchet. Tous droits réservés.</h2>
+        </footer>
+
+    <script src="./calculatrice.js"></script>
+    </body>
+</html>
